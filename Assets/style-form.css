@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+}
+
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f2f2f2;
+    position: relative;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 10px 0;
+    display: flex;
+}
+
+header img  {
+    display: inline-block;
+    width: 120px;
+}
+header .judul {
+    margin: 0 0 0 40px;
+}
+
+nav {
+    background-color: #444;
+    text-align: end;
+    padding: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 20px;
+    background-color: #333;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.container {
+    margin: 30px 20px;
+    background-color: #fff;
+    padding: 30px auto;
+    border-radius: 50px;
+    display: block;
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+}
+
+
+/* Sidebar */
+.navbar {
+    position: fixed;
+    background-color: #6edcf7;
+    left: 0;
+    top: 0px;
+    bottom: 0px;
+    width: 90px;
+    z-index: -1;
+    display: block;
+}
+
+/* Formulir */
+form {
+    width: 600px;
+    padding: 20px;
+    
+}
+
+.container form label{
+    /* border: 10px; */
+    margin-top: 10px;
+}
+.container form input {
+    margin-top: 100px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 25px;
+    margin-top: 350px;
+    z-index: 99999;
+}
+footer .social {
+    padding: 10px;
+}
+footer .social a {
+    color: #fff;
+}
+footer p {
+    margin: auto;
+}

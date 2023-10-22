@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Halaman Utama</title>
+    <link rel="stylesheet" href="Assets/style-main.css">
+    <script src="https://unpkg.com/feather-icons"></script>
+</head>
+<body>
+    <header>
+        <img src="assets/Logo_ITERA.png" alt="Logo ITERA">
+        <div class="judul">
+            <h1>Sistem Peminjaman Ruangan</h1>
+            <h3>Jurusan Teknologi Produksi dan Industri ITERA</h3>
+        </div>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="index.html">Main</a></li>
+            <li><a href="table.html">Table</a></li>
+        </ul>
+    </nav>
+
+    <div class="container">
+    <table width="500">
+        <form method="get">
+          <tr>
+            <td>Nama</td>
+            <td>: <input required class="text nama" name="nama" type="text" /></td>
+          </tr>
+          <tr>
+            <td>NIM</td>
+            <td>: <input required class="text nim" name="nim" type="text" /></td>
+          </tr>
+          <tr>
+            <td>Program Studi</td>
+            <td>: <input required class="text prodi" name="program-studi" type="text" /></td>
+          </tr>
+          <tr>
+            <td>Email</td>
+            <td>: <input required class="text email" name="email"  type="text" /></td>
+          </tr>
+          <tr>
+            <td>Password</td>
+            <td>: <input required class="text password" name="password" type="text" /></td>
+          </tr>
+          <tr>
+            <td>Jenis Kelamin</td>
+            <td>: <input required type="radio" id="laki-laki" name="jenkel" class="jenkel" value="Laki-Laki" /> <label for="laki-laki">Laki-Laki</label>  <input type="radio" id="perempuan" name="jenkel" class="jenkel" value="Perempuan" /> <label for="perempuan">Perempuan</label> </td>
+          </tr>
+          <tr>
+            <td>Tanggal Lahir</td>
+            <td>: <input required name="tanggal lahir" class="tanggal" type="date" /></td>
+          </tr>
+          <tr>  
+            <td>Alamat</td>
+            <td>: <input required class="text alamat" name="alamat" type="text" /></td>
+          </tr>
+          <tr>
+            <td colspan="2"><input class="submit" type="submit" onclick="
+              addData();"></td>
+          </tr>
+        </form>
+      </table>
+    </div>
+
+</body>
+<footer>
+    <div class="copyright">
+        <div class="social">
+             <a href="http://www.instagram.com/gabrielfico_"><i data-feather="instagram"></i></a>
+        </div>
+        <p>
+            Copyright &copy; 2023
+            <strong>Gabriel Fico</strong>
+        </p>
+        <p>All Rights Reserved</p>
+    </div>
+</footer>
+<script src="style.js"></script>
+<script>feather.replace()</script>
+</html>
